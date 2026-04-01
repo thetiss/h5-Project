@@ -1,0 +1,12 @@
+{
+  "name": "h5-project",
+  "version": "1.0.0",
+  "description": "H5 前端项目模板",
+  "scripts": {
+    "dev": "sass --watch .:.",
+    "build": "sass .:."
+  },
+  "devDependencies": {
+    "sass": "^1.69.0"
+  }
+}

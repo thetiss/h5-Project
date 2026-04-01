@@ -1,0 +1,33 @@
+:root {
+  --primary-color: aliceblue;
+  --secondary-color: gainsboro;
+  --info-color: cornsilk;
+}
+
+.sections {
+  height: 100dvh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.section {
+  scroll-snap-align: start;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-primary {
+  background-color: var(--primary-color);
+}
+
+.section-secondary {
+  background-color: var(--secondary-color);
+}
+
+.section-info {
+  background-color: var(--info-color);
+}
+
+/*# sourceMappingURL=FullPageScroll.css.map */
